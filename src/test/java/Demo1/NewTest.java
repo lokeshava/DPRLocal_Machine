@@ -21,6 +21,7 @@ public class NewTest {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 	
+	// Lokesh reddy
 	@Test
 	public void inputFields() {
 		driver.findElement(By.id("name")).sendKeys("Lokesh");
