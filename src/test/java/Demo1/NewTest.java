@@ -28,7 +28,7 @@ public class NewTest {
 		driver.findElement(By.id("name")).sendKeys("Lokesh");
 		driver.findElement(By.id("email")).sendKeys("lokeshavareddy111@gmail.com");
 		driver.findElement(By.id("phone")).sendKeys("9148750050");
-		driver.findElement(By.id("textarea")).sendKeys("65/3, nanjappa street, Banhalore, Karnataka");
+		driver.findElement(By.id("textarea")).sendKeys("65/3, nanjappa street, Bangalore, Karnataka");
 		driver.findElement(By.id("male")).click();
 		driver.findElement(By.id("sunday")).click();
 		driver.findElement(By.id("monday")).click();
